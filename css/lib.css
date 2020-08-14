@@ -140,15 +140,15 @@ p.blocktext{
   display: flex;
   flex-flow: column;
 }
-.card  {
+.card{
   display:flex;
   flex-direction:column;  
   max-width: 600px;
   min-width: 200px;
   background-color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 4);
 }
-
+/*ADAPTIVE FORM*/
 @media (min-width: 600px) {
   .card_container_row {
     display: flex;
@@ -158,7 +158,12 @@ p.blocktext{
     max-width: 400px;
     margin-right: 20px;
   }
+  .card img {
+  background: transparent;
+  width: 100%;
 }
+}
+
 .card img {
   background: transparent;
   width: 100%;
@@ -173,25 +178,21 @@ p.blocktext{
   font-family: 'Muli', sans serif;
   margin-top: 5px;
 }
-
 .card_content p {
   margin:0;
   padding: 0;
   line-height: 1.6em;
   font-family: 'Muli', sans serif;
 }
-
 .card_footer {
   padding: 0 10px 0;
   text-align: right;
   font-family: 'Muli', sans serif;
 }
-
 .card_footer a {
   text-decoration: none;
   color: deepskyblue;
 }
-
 .card_footer a:hover {
   border-bottom: 2px solid deepskyblue;
 }
