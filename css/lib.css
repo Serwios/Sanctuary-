@@ -125,4 +125,76 @@ p.blocktext{
   transform: translate(-50%, -50%);
   font-family: 'Hind Madurai', sans-serif;
 }
+/*MEDIA-CARDS*/
+.card_container{
+  position:relative;
+  background-color:  #fff;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 42vw;
+  padding: 20px;
+  max-width:1200px;
+  display: block;
+}
+.card_container_row {
+  display: flex;
+  flex-flow: column;
+}
+.card  {
+  display:flex;
+  flex-direction:column;  
+  max-width: 600px;
+  min-width: 200px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 600px) {
+  .card_container_row {
+    display: flex;
+    flex-flow: row nowrap; 
+  }
+  .card  {
+    max-width: 400px;
+    margin-right: 20px;
+  }
+}
+.card img {
+  background: transparent;
+  width: 100%;
+}
+.card_content{
+  margin:0;
+  padding: 0 10px 0;
+  flex: 1 1 auto;
+}
+.card_content h2 {
+  color: #999; 
+  font-family: 'Muli', sans serif;
+  margin-top: 5px;
+}
+
+.card_content p {
+  margin:0;
+  padding: 0;
+  line-height: 1.6em;
+  font-family: 'Muli', sans serif;
+}
+
+.card_footer {
+  padding: 0 10px 0;
+  text-align: right;
+  font-family: 'Muli', sans serif;
+}
+
+.card_footer a {
+  text-decoration: none;
+  color: deepskyblue;
+}
+
+.card_footer a:hover {
+  border-bottom: 2px solid deepskyblue;
+}
+
+
 
