@@ -9,12 +9,19 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
+
+body{
+  position: relative;
+}
+
 /*NAVBAR*/
 nav{
   background: #00909a;
   height: 80px;
   width: 100%;
+
 }
+
 label.logo{
   color: #f6f6f6;
   font-size: 33px;
@@ -23,15 +30,18 @@ label.logo{
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
+
 nav ul{
   float: right;
   margin-right: 60px;
 }
+
 nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 2px;
 }
+
 nav ul li a{
   color: #f6f6f6;
   font-weight: 500;
@@ -40,13 +50,16 @@ nav ul li a{
   border-radius: 3px;
   font-family: 'Poppins', sans-serif;
 }
+
 .active:hover{
   background: black;
   transition: .5s;
 }
+
 .picked{
   background: black;
 }
+
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -56,9 +69,11 @@ nav ul li a{
   cursor: pointer;
   display: none;
 }
+
 #check{
   display: none;
 }
+
 /*ADAPTIVE FORM*/
 @media (max-width: 952px){
   label.logo{
@@ -66,11 +81,14 @@ nav ul li a{
     padding-left: 25px;
     line-height: 80px;
   }
+
   nav ul li a{
     font-size: 16px;
   }
+
 }
 /*ADAPTIVE FORM*/
+
 @media (max-width: 858px){
   .checkbtn{
     display: block;
@@ -88,23 +106,29 @@ nav ul li a{
     transition: all .5s;
     z-index: 1;
   }
+
   nav ul li{
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
+
   nav ul li a{
     font-size: 20px;
     font-weight: bold;
   }
+
   a:hover,a.active{
     background: none;
     color: #3b3a3d;
   }
+
   #check:checked ~ ul{
     left: 0;
   }
+
 }
+
 section{
   display: flex;
   background: url(../img/bg2.jpg) no-repeat;
@@ -113,6 +137,7 @@ section{
   width: 100%;
   position: absolute;
 }
+
 p.blocktext{
   margin: 0;
   color: black;
@@ -125,6 +150,7 @@ p.blocktext{
   transform: translate(-50%, -50%);
   font-family: 'Hind Madurai', sans-serif;
 }
+
 /*MEDIA-CARDS*/
 .card_container{
   position:relative;
@@ -136,10 +162,46 @@ p.blocktext{
   max-width:1200px;
   display: block;
 }
+
+.card_container_2{
+  position:relative;
+  background-color:  #fff;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 2vw;
+  padding: 20px;
+  max-width:1200px;
+  display: block;
+}
+
+.card_container_3{
+  position:relative;
+  background-color:  #fff;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 2vw;
+  padding: 20px;
+  max-width:1200px;
+  display: block;
+}
+
+.card_container_4{
+  position:relative;
+  background-color:  #fff;
+  margin-right:auto;
+  margin-left:auto;
+  margin-top: 2vw;
+  padding: 20px;
+  max-width:1200px;
+  display: block;
+}
+
 .card_container_row {
   display: flex;
   flex-flow: column;
+
 }
+
 .card{
   display:flex;
   flex-direction:column;  
@@ -148,16 +210,19 @@ p.blocktext{
   background-color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 4);
 }
+
 /*ADAPTIVE FORM*/
 @media (min-width: 600px) {
   .card_container_row {
     display: flex;
     flex-flow: row nowrap; 
   }
+
   .card  {
     max-width: 400px;
     margin-right: 20px;
   }
+
   .card img {
   background: transparent;
   width: 100%;
@@ -168,34 +233,37 @@ p.blocktext{
   background: transparent;
   width: 100%;
 }
+
 .card_content{
   margin:0;
   padding: 0 10px 0;
   flex: 1 1 auto;
 }
+
 .card_content h2 {
   color: #999; 
   font-family: 'Muli', sans serif;
   margin-top: 5px;
 }
+
 .card_content p {
   margin:0;
   padding: 0;
   line-height: 1.6em;
   font-family: 'Muli', sans serif;
 }
+
 .card_footer {
   padding: 0 10px 0;
   text-align: right;
   font-family: 'Muli', sans serif;
 }
+
 .card_footer a {
   text-decoration: none;
   color: deepskyblue;
 }
+
 .card_footer a:hover {
   border-bottom: 2px solid deepskyblue;
 }
-
-
-

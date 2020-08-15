@@ -1,6 +1,7 @@
 /*FONTS-CORE*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -9,12 +10,16 @@
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }
+
 /*NAVBAR*/
 nav{
   background: #00909a;
   height: 80px;
   width: 100%;
+  z-index: 1;
+  position: fixed;
 }
+
 label.logo{
   color: #f6f6f6;
   font-size: 33px;
@@ -23,15 +28,18 @@ label.logo{
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
+
 nav ul{
   float: right;
   margin-right: 60px;
 }
+
 nav ul li{
   display: inline-block;
   line-height: 80px;
   margin: 0 2px;
 }
+
 nav ul li a{
   color: #f6f6f6;
   font-weight: 500;
@@ -40,13 +48,16 @@ nav ul li a{
   border-radius: 3px;
   font-family: 'Poppins', sans-serif;
 }
+
 .active:hover{
   background: black;
   transition: .5s;
 }
+
 .picked{
   background: black;
 }
+
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -56,9 +67,11 @@ nav ul li a{
   cursor: pointer;
   display: none;
 }
+
 #check{
   display: none;
 }
+
 /*BACKGROUND*/
 section.back{
   background: url(../img/bg1.jpg) no-repeat;
@@ -66,8 +79,11 @@ section.back{
   height: 40vw;
   width: 100%;
   position: absolute;
-
+  padding: 0;
+  margin-top-top: 90px;
+  margin-top: 80px;
 }
+
 p.blocktext{
   margin: 0;
   color: black;
@@ -80,20 +96,23 @@ p.blocktext{
   transform: translate(-50%, -50%);
   font-family: 'Hind Madurai', sans-serif;
 }
+
 /*CONTENT*/
 .content{
-  margin-top: 10px;
   display: flex;
   justify-content: center;
   flex-shrink: 1;
   justify-content: space-around;
+  padding-top: 100px;
 }
+
 .blocktext{
   margin-top: 45%;
   margin-left: 10%; 
   padding: 5px; 
   float: left; 
 }
+
 .blocktext_content{
   margin-top: 45%;
   margin-left: 10%; 
@@ -103,6 +122,7 @@ p.blocktext{
   font-family: 'Hind Madurai', sans-serif;
   display: flex;
 }
+
 .buttontext {
   margin-top: 45%;
   width: 400px; 
@@ -110,6 +130,7 @@ p.blocktext{
   margin-right: 5%;
   height: 200px;
 }
+
 /*ADAPTIVE FORM*/
 @media (max-width: 952px){
   label.logo{
@@ -117,10 +138,13 @@ p.blocktext{
     padding-left: 25px;
     line-height: 80px;
   }
+
   nav ul li a{
     font-size: 16px;
   }
+
 }
+
 /*ADAPTIVE FORM*/
 @media (max-width: 858px){
   .checkbtn{
@@ -139,22 +163,27 @@ p.blocktext{
     transition: all .5s;
     z-index: 1;
   }
+
   nav ul li{
     display: block;
     margin: 50px 0;
     line-height: 30px;
   }
+
   nav ul li a{
     font-size: 20px;
     font-weight: bold;
   }
+
   a:hover,a.active{
     background: none;
     color: #3b3a3d;
   }
+
   #check:checked ~ ul{
     left: 0;
   }
+
   .blocktext_content{
     margin-top: 45%;
     margin-left: 10%; 
@@ -168,6 +197,7 @@ p.blocktext{
 
 }
 /*ADAPTIVE FORM*/
+
 @media (max-width: 283){
   p.blocktext{
     font-size: 1px;
@@ -175,16 +205,19 @@ p.blocktext{
 
 }
 /*BUTTONS*/
+
 .connection{
   color: #000 !important;
   display: block;
   width: 100%;
   height: 100%;
 }
+
 .connection:hover{
   color: #000 !important;
   text-decoration: none;
 }
+
 .custom-btn {
   width: 170px;
   height: 40px;
@@ -207,6 +240,7 @@ p.blocktext{
   border: none;
   color: #000;
 }
+
 .btn-16:after {
   position: absolute;
   content: "";
@@ -223,14 +257,17 @@ p.blocktext{
    4px 4px 5px 0px #0001;
   transition: all 0.3s ease;
 }
+
 .btn-16:hover {
   color: #000;
 }
+
 .btn-16:hover:after {
   left: auto;
   right: 0;
   width: 100%;
 }
+
 .btn-16:active {
   top: 2px;
 }
