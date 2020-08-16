@@ -72,66 +72,6 @@ nav ul li a{
   display: none;
 }
 
-/*BACKGROUND*/
-section.back{
-  background: url(../img/bg1.jpg) no-repeat;
-  background-size: cover;
-  height: 40vw;
-  width: 100%;
-  position: absolute;
-  padding: 0;
-  margin-top-top: 90px;
-  margin-top: 80px;
-}
-
-p.blocktext{
-  margin: 0;
-  color: black;
-  background-color: white;
-  font-size: 30px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  font-family: 'Hind Madurai', sans-serif;
-}
-
-/*CONTENT*/
-.content{
-  display: flex;
-  justify-content: center;
-  flex-shrink: 1;
-  justify-content: space-around;
-  padding-top: 100px;
-}
-
-.blocktext{
-  margin-top: 45%;
-  margin-left: 10%; 
-  padding: 5px; 
-  float: left; 
-}
-
-.blocktext_content{
-  margin-top: 45%;
-  margin-left: 10%; 
-  padding: 5px; 
-  float: left; 
-  width: 500px;
-  font-family: 'Hind Madurai', sans-serif;
-  display: flex;
-}
-
-.buttontext {
-  margin-top: 45%;
-  width: 400px; 
-  float: right; 
-  margin-right: 5%;
-  height: 200px;
-}
-
-
 /*ADAPTIVE FORM*/
 @media (max-width: 952px){
   label.logo{
@@ -197,77 +137,28 @@ p.blocktext{
    }
 
 }
-/*ADAPTIVE FORM*/
 
-@media (max-width: 361){
-  p.blocktext{
-    font-size: 1px;
-}
-}
-/*BUTTONS*/
-
-.connection{
-  color: #000 !important;
-  display: block;
+/*BACKGROUND*/
+section.back{
+  background: url(../img/bg3.jpg) no-repeat;
+  background-size: cover;
+  height: 40vw;
   width: 100%;
-  height: 100%;
-}
-
-.connection:hover{
-  color: #000 !important;
-  text-decoration: none;
-}
-
-.custom-btn {
-  width: 170px;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
-}
-   
-.btn-16 {
-  border: none;
-  color: #000;
-}
-
-.btn-16:after {
   position: absolute;
-  content: "";
-  width: 0;
-  height: 100%;
-  top: 0;
-  left: 0;
-  direction: rtl;
-  z-index: -1;
-  box-shadow:
-   -7px -7px 20px 0px #fff9,
-   -4px -4px 5px 0px #fff9,
-   7px 7px 20px 0px #0002,
-   4px 4px 5px 0px #0001;
-  transition: all 0.3s ease;
+  padding: 0;
+  margin-top-top: 90px;
+  margin-top: 80px;
 }
 
-.btn-16:hover {
-  color: #000;
-}
-
-.btn-16:hover:after {
-  left: auto;
-  right: 0;
-  width: 100%;
-}
-
-.btn-16:active {
-  top: 2px;
+p.blocktext{
+  margin: 0;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Hind Madurai', sans-serif;
 }
