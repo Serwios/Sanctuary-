@@ -20,7 +20,8 @@ nav{
   background: #00909a;
   height: 80px;
   width: 100%;
-
+  position: sticky;
+  z-index: 1;
 }
 
 label.logo{
@@ -131,12 +132,12 @@ nav ul li a{
 }
 
 section{
-  display: flex;
   background: url(../img/bg2.jpg) no-repeat;
   background-size: cover;
   height: 40vw;
   width: 100%;
   position: absolute;
+  z-index: 2;
 }
 
 p.blocktext{
@@ -267,4 +268,16 @@ p.blocktext{
 
 .card_footer a:hover {
   border-bottom: 2px solid deepskyblue;
+}
+
+.back{
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+}
+
+.button_up{
+  width: 100px;
+  height: 25px;
+  margin-left: 38%;
 }
