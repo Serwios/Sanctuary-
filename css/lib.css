@@ -20,8 +20,9 @@ nav{
   background: #00909a;
   height: 80px;
   width: 100%;
-  position: sticky;
+  position: fixed;
   z-index: 1;
+  margin-top: -80px;
 }
 
 label.logo{
@@ -86,6 +87,7 @@ nav ul li a{
 
   nav ul li a{
     font-size: 16px;
+    z-index: 1;
   }
 
 }
@@ -136,8 +138,12 @@ section{
   background-size: cover;
   height: 40vw;
   width: 100%;
-  position: absolute;
-  z-index: 2;
+  position: relative;
+  display: flex;
+  margin-top: 80px;
+
+
+
 }
 
 p.blocktext{
@@ -159,10 +165,10 @@ p.blocktext{
   background-color:  #fff;
   margin-right:auto;
   margin-left:auto;
-  margin-top: 42vw;
   padding: 20px;
   max-width:1200px;
   display: block;
+  padding-top: -20px;
 }
 
 .card_container_2{
