@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;600;700&display=swap');
 
+:root{
+  scroll-behavior: smooth;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -284,9 +288,20 @@ p.blocktext{
 }
 
 .button_up{
-  width: 100px;
-  height: 25px;
+  width: 200px;
+  height: 30px;
   border-color: black;
   background-color: white;
+  letter-spacing: normal;
+  color: black;
+  transition: all 300ms ease;
+  margin-bottom: 35px;
+  border-radius: 2px;
 
+}
+
+.button_up:hover{
+  background-color: black;
+  color: white;
+  transition: all 300ms ease;
 }
