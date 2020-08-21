@@ -173,22 +173,20 @@ p.blocktext{
 .dropdown {
   position: absolute;
   display: inline-block;
-  width: 100%;
+  width: 50%;
   height: 60px;
-  
+  margin-left: 26%;
 }
 
-.dropbtn {
+.dropbtn{
   background-color: #4CAF50;
   color: white;
   padding: 16px;
   font-size: 16px;
-  margin-left: 25%;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
 }
-
 
 .dropdown-content {
   display: none;
@@ -208,13 +206,9 @@ p.blocktext{
   display: block;
 }
 
+
 .dropdown-content a:hover {background-color: #f1f1f1}
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
-}
-
