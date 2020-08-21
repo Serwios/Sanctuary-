@@ -274,10 +274,12 @@ p.blocktext{
 .card_footer a {
   text-decoration: none;
   color: deepskyblue;
+  font-size: 20px;
 }
 
 .card_footer a:hover {
   border-bottom: 2px solid deepskyblue;
+  border-width: 10px;
 }
 
 .back{
