@@ -1,7 +1,7 @@
 /*FONTS-CORE*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 :root{
   scroll-behavior: smooth;
 }
@@ -145,9 +145,6 @@ section{
   position: relative;
   display: flex;
   margin-top: 80px;
-
-
-
 }
 
 p.blocktext{
@@ -220,7 +217,7 @@ p.blocktext{
   max-width: 600px;
   min-width: 200px;
   background-color: #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 4);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 4);
 }
 
 /*ADAPTIVE FORM*/
@@ -253,16 +250,17 @@ p.blocktext{
 }
 
 .card_content h2 {
-  color: #999; 
-  font-family: 'Muli', sans serif;
+  color: black; 
+  font-family: 'Poppins', sans-serif;
   margin-top: 5px;
+  padding-left: 7px;
 }
 
 .card_content p {
   margin:0;
-  padding: 0;
+  padding-top: 10px;
   line-height: 1.6em;
-  font-family: 'Muli', sans serif;
+  font-family: 'IBM Plex Serif', serif;
 }
 
 .card_footer {
