@@ -33,7 +33,7 @@ label.logo{
   color: #f6f6f6;
   font-size: 33px;
   line-height: 80px;
-  padding: 0 140px;
+  padding-left: 140px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
 }
@@ -253,7 +253,8 @@ p.blocktext{
   color: black; 
   font-family: 'Poppins', sans-serif;
   margin-top: 5px;
-  padding-left: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card_content p {
@@ -261,6 +262,8 @@ p.blocktext{
   padding-top: 10px;
   line-height: 1.6em;
   font-family: 'IBM Plex Serif', serif;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card_footer {
