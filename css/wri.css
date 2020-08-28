@@ -139,7 +139,7 @@ nav ul li a{
 }
 
 /*BACKGROUND*/
-section.back{
+section.back_image{
   background: url(../img/bg3.jpg) no-repeat;
   background-size: cover;
   height: 40vw;
@@ -150,10 +150,19 @@ section.back{
   display: flex;
 }
 
+
 .wrap{
   width: 100%;
-  margin-bottom: 300px;
+  margin-bottom: 15%;
   height: 40vw;
+}
+
+@media (max-width: 850px){
+  .wrap{
+  width: 100%;
+  margin-bottom: 25%;
+  height: 40vw;
+}
 }
 
 p.blocktext{
@@ -186,6 +195,14 @@ p.blocktext{
   width: 25%;
   margin: 1rem;
   cursor: pointer;
+}
+
+@media (max-width: 750px){
+ .cards{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
 }
 
 /*Perspective for parallax*/
