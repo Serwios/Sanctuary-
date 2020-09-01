@@ -126,3 +126,42 @@ nav ul li a{
   }
 
 }
+
+section.back_image{
+  background: url(../img/bg4.jpg) no-repeat;
+  background-size: cover;
+  height: 40vw;
+  width: 100%;
+  position: absolute;
+  padding: 0;
+  margin-top: 80px;
+  display: flex;
+}
+
+
+.wrap{
+  width: 100%;
+  margin-bottom: 15%;
+  height: 40vw;
+}
+
+@media (max-width: 850px){
+  .wrap{
+  width: 100%;
+  margin-bottom: 25%;
+  height: 40vw;
+}
+}
+
+p.blocktext{
+  margin: 0;
+  color: black;
+  background-color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Hind Madurai', sans-serif;
+}

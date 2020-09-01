@@ -183,14 +183,6 @@ p.blocktext{
   justify-content: center;
 }
 
-@media (max-width: 750px){
- .cards{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- } 
-}
-
 .cards_contain{
   width: 25%;
   margin: 1rem;
@@ -230,7 +222,14 @@ p.blocktext{
 @media (max-width: 750px){
   .back{
     min-height: 250px;
-    min-width: 250px;
+    min-width: 300px;
+    margin-left: 5px;
+  }
+
+  .front{
+    min-height: 250px;
+    min-width: 300px;
+    margin-left: 5px;
   } 
  }
 
@@ -240,13 +239,13 @@ p.blocktext{
 
 .front:after{
   position: absolute;
-    width: 100%;
-    height: 100%;
-    /*Smooth filter*/
-    content: '';
-    display: block;
-    opacity: .7;
-    background-color: #000;
+  width: 100%;
+  height: 100%;
+  /*Smooth filter*/
+  content: '';
+  display: block;
+  opacity: .7;
+  background-color: #000;
 }
 
 .back{
@@ -325,7 +324,7 @@ p.blocktext{
 
 .useless_thoughts p{
   font-size: 20px;
-  
+  margin-bottom: 5px;
   color: black;
 }
 
@@ -339,7 +338,6 @@ p.blocktext{
 .thoughtful_works{
   width: 100%;
   height: 200px;
-  margin-top: 2px;
 }
 
 .buttons{
@@ -357,7 +355,6 @@ p.blocktext{
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 2px;
-
 }
 
 .direct_button:hover{
