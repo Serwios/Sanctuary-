@@ -214,12 +214,21 @@ h4{
   outline: 1px solid transparent;
 }
 
+h2{
+  font-family: 'Hind Madurai', sans-serif;
+}
+
 .project_image_1{
   width: 100%;
   height: 500px;
   background: url(../img/prj_1.jpg) no-repeat;
   background-size: cover;
+}
 
+@media (max-width: 580px) {
+    .project_image_1{
+      height: 200px;
+    }
 }
 
 
