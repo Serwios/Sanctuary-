@@ -80,19 +80,17 @@ section.back{
   width: 100%;
   position: absolute;
   padding: 0;
-  margin-top-top: 90px;
   margin-top: 80px;
 }
 
 p.blocktext{
-  margin: 0;
   color: black;
   background-color: white;
   font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
+  margin: 0 -50% 0 0;
   transform: translate(-50%, -50%);
   font-family: 'Hind Madurai', sans-serif;
 }
@@ -100,7 +98,6 @@ p.blocktext{
 /*CONTENT*/
 .content{
   display: flex;
-  justify-content: center;
   flex-shrink: 1;
   justify-content: space-around;
   padding-top: 100px;
@@ -123,7 +120,7 @@ p.blocktext{
   display: flex;
 }
 
-.buttontext {
+.buttontext{
   margin-top: 45%;
   width: 400px; 
   float: right; 
@@ -143,7 +140,6 @@ p.blocktext{
   nav ul li a{
     font-size: 16px;
   }
-
 }
 
 /*ADAPTIVE FORM*/
@@ -152,7 +148,7 @@ p.blocktext{
     display: block;
     margin-right: 40px;
   }
-  
+
   ul{
     position: fixed;
     width: 100%;
@@ -187,25 +183,17 @@ p.blocktext{
 
   .blocktext_content{
     margin-top: 45%;
-    margin-left: 10%; 
-    padding: 5px; 
-    float: left; 
+    margin-left: 10%;
+    padding: 5px;
+    float: left;
     width: 500px;
     font-family: 'Hind Madurai', sans-serif;
     display: flex;
     font-size: 10px;
    }
+}
 
-}
-/*ADAPTIVE FORM*/
-
-@media (max-width: 361){
-  p.blocktext{
-    font-size: 1px;
-}
-}
 /*BUTTONS*/
-
 .connection{
   color: #000 !important;
   display: block;
@@ -231,9 +219,9 @@ p.blocktext{
   transition: all 0.3s ease;
   position: relative;
   display: inline-block;
-  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
-   7px 7px 20px 0px rgba(0,0,0,.1),
-   4px 4px 5px 0px rgba(0,0,0,.1);
+  box-shadow:inset 2px 2px 2px 0 rgba(255,255,255,.5),
+   7px 7px 20px 0 rgba(0,0,0,.1),
+   4px 4px 5px 0 rgba(0,0,0,.1);
 }
    
 .btn-16 {
@@ -251,10 +239,10 @@ p.blocktext{
   direction: rtl;
   z-index: -1;
   box-shadow:
-   -7px -7px 20px 0px #fff9,
-   -4px -4px 5px 0px #fff9,
-   7px 7px 20px 0px #0002,
-   4px 4px 5px 0px #0001;
+   -7px -7px 20px 0 #fff9,
+   -4px -4px 5px 0 #fff9,
+   7px 7px 20px 0 #0002,
+   4px 4px 5px 0 #0001;
   transition: all 0.3s ease;
 }
 

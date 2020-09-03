@@ -148,14 +148,13 @@ section{
 }
 
 p.blocktext{
-  margin: 0;
   color: black;
   background-color: white;
   font-size: 30px;
   position: absolute;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
+  margin: 0 -50% 0 0;
   transform: translate(-50%, -50%);
   font-family: 'Hind Madurai', sans-serif;
 }
@@ -280,7 +279,6 @@ p.blocktext{
 
 .card_footer a:hover {
   border-bottom: 2px solid deepskyblue;
-  border-width: 10px;
 }
 
 .back{
